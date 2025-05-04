@@ -4,6 +4,7 @@
 	import { PrismicPreview } from '@prismicio/svelte/kit';
 	import { page } from '$app/stores';
 	import { repositoryName } from '$lib/prismicio';
+	import "../app.css"
 </script>
 
 <svelte:head>
