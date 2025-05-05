@@ -20,6 +20,7 @@
 		"@sveltejs/kit": "^2.5.15",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"@types/eslint": "^8.56.10",
+		"@types/three": "^0.176.0",
 		"concurrently": "^8.2.2",
 		"eslint": "^9.5.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -43,7 +44,8 @@
 		"@prismicio/client": "^7.17.2",
 		"@prismicio/svelte": "^1.5.0",
 		"@tailwindcss/vite": "^4.1.5",
-		"@threlte/core": "^8.0.2",
+		"@threlte/core": "^7.0.0",
+		"@threlte/extras": "^7.0.0",
 		"tailwindcss": "^4.1.5",
 		"three": "^0.176.0"
 	}
