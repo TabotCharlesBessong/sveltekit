@@ -1,0 +1,52 @@
+{
+	"name": "sveltekit-starter-prismic-minimal",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "concurrently \"npm:vite:dev\" \"npm:slicemachine\" --prefix-colors blue,magenta",
+		"vite:dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write .",
+		"slicemachine": "start-slicemachine"
+	},
+	"devDependencies": {
+		"@slicemachine/adapter-sveltekit": "^0.3.75",
+		"@sveltejs/adapter-auto": "^6.0.0",
+		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/kit": "^2.5.15",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@types/eslint": "^8.56.10",
+		"@types/three": "^0.176.0",
+		"concurrently": "^8.2.2",
+		"eslint": "^9.5.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.39.3",
+		"globals": "^15.4.0",
+		"prettier": "^3.3.2",
+		"prettier-plugin-svelte": "^3.2.4",
+		"slice-machine-ui": "^2.15.2",
+		"svelte": "^4.2.18",
+		"svelte-check": "^3.8.0",
+		"tslib": "^2.6.3",
+		"typescript": "^5.4.5",
+		"typescript-eslint": "^8.0.0-alpha.20",
+		"typescript-svelte-plugin": "^0.3.38",
+		"vite": "^5.3.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource-variable/urbanist": "^5.2.5",
+		"@fontsource/open-sans": "^5.2.5",
+		"@prismicio/client": "^7.17.2",
+		"@prismicio/svelte": "^1.5.0",
+		"@tailwindcss/vite": "^4.1.5",
+		"@threlte/core": "^7.0.0",
+		"@threlte/extras": "^7.0.0",
+		"tailwindcss": "^4.1.5",
+		"three": "^0.176.0"
+	}
+}
