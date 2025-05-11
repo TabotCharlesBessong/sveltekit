@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "concurrently \"npm:vite:dev\" \"npm:slicemachine\" --prefix-colors blue,magenta",
+		"dev": "vite dev",
 		"vite:dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -19,7 +19,9 @@
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.5.15",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@types/bcrypt": "^5.0.2",
 		"@types/eslint": "^8.56.10",
+		"@types/jsonwebtoken": "^9.0.9",
 		"@types/three": "^0.176.0",
 		"concurrently": "^8.2.2",
 		"eslint": "^9.5.0",
@@ -46,6 +48,10 @@
 		"@tailwindcss/vite": "^4.1.5",
 		"@threlte/core": "^7.0.0",
 		"@threlte/extras": "^7.0.0",
+		"bcrypt": "^5.1.1",
+		"dotenv": "^16.5.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.14.2",
 		"tailwindcss": "^4.1.5",
 		"three": "^0.176.0"
 	}

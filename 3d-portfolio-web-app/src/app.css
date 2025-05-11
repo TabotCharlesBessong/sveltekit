@@ -1,4 +1,5 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+/* @import tailwind utilities; */
 
 body {
   font-family: 'Urbanist Variable', sans-serif;
